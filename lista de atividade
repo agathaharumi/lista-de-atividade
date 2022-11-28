@@ -1,3 +1,42 @@
+funcao()
+
+{
+
+    inteiro resultado
+    
+    resultado = pitagoras(4,3)
+    
+    escreva(resultado)
+    
+    }
+    
+    
+    funcao inteiro pitagoras(inteiro a,inteiro b){
+
+    inteiro hipotenusa = 0
+    
+    a=a*a
+    
+    b=b*b
+    
+    hipotenusa = m.raiz(a+b,2)
+    
+    
+    retorne a hipotenusa
+    
+    }
+    
+}    
+
+
+
+
+
+
+
+9.funcao inicio()
+
+
 a = float(input('Primeiro lado: '))
     b = float(input('Segundo  lado: '))
     c = float(input('Terceiro lado: '))
@@ -11,36 +50,116 @@ a = float(input('Primeiro lado: '))
         print('Isósceles')
     else:
         print('Escaleno')
+        
+10.programa
 
-11.digite o numero: 100
-o numero tem 3 digitos
+{
 
-digite o numero 1003
-o numero tem 4 digitos
+     funcao inicio()
+     
+{     
+     imprimir quadrado(4)
+     
+}     
 
-digite o numero 59
-o numero tem 2 digitos
+     funcao imprimirQuadrado(inteiro n){
+     
+       para (inteiro i=0; i < n; i++){
+       
+       para(inteiro j=0; j < n; j++){
+       
+       escreva("#")
+       
+       }
+       
+       escreva("n/")
+       
+       }
+    }
+} 
 
-14.function getRandomIntInclusive(min, max) {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+11.programa
+
+{
+
+   inclua a biblioteca Util
+   
+   
+   funcao inicio()
+   
+   {
+   
+   numeros(23764)
+   
+   }
+   
+   funcaonumeros(inteiro num1){
+   
+   inteiro numeroDigitos = 0
+   
+   enquanto(num1 = 0){
+   
+   num1 = num1/10
+   
+   numeroDigitos++
+   
+   
+   
+   }
+   
+   escreva("numero possui" numerosDigitos, "digitos")
+   
+   }
+ }  
+   
+   
+   14.programa
+   
+   funcao inicio()
+   
+   }
+   
+   
+   function getRandomIntInclusive(min, max) {
+       
+       min = Math.ceil(min);
+      
+      max = Math.floor(max);
+    
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
 }
-15.def somalista(numeros):
+15.programa
+
+  funcao inicio()
+  
+  }
+ 
+ def somalista(numeros):
     soma = 0
     for i in numeros:
         soma = soma + i
-    return soma
+        return soma
 
-print(somalista([1,3,5,7,9]))
+ print(somalista([1,3,5,7,9]))
+ 
+  }
+} 
 
-17.def máximo(a, b):
+17.programa 
+
+funcao inicio()
+
+def máximo(a, b):
     if a > b:
-        return a
-    else:
+    return else:
         return b
 
+    print(f"máximo(5,6) == 6 -> obtido: {máximo(5,6)}")
 
-print(f"máximo(5,6) == 6 -> obtido: {máximo(5,6)}")
-print(f"máximo(2,1) == 2 -> obtido: {máximo(2,1)}")
-print(f"máximo(7,7) == 7 -> obtido: {máximo(7,7)}")
+    print(f"máximo(2,1) == 2 -> obtido: {máximo(2,1)}")
+
+    print(f"máximo(7,7) == 7 -> obtido: {máximo(7,7)}")
+
+   }
+ }  
