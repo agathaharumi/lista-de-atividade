@@ -111,9 +111,32 @@ a = float(input('Primeiro lado: '))
    
    }
  }  
+    
+  12.programa
+  
+  funcao inicio()
+  
+  }
+  
+  "inversao de texto"
+  
+  escreva("------inversao de texto------")
    
+   escreva"digite alguns números"
+   leia(texto)
    
-   14.programa
+   tamanho:= (texto)
+   
+   escreva(copia(texto,i)){
+   
+   }
+   
+ }  
+   
+   13.(nao consegui fazer)
+   
+  
+  14.programa
    
    funcao inicio()
    
@@ -145,6 +168,7 @@ a = float(input('Primeiro lado: '))
  
   }
 } 
+16.(nao consegui fazer) 
 
 17.programa 
 
@@ -163,3 +187,38 @@ def máximo(a, b):
 
    }
  }  
+18.programa
+
+funcao inicio()
+{
+
+real valor,maiorValor, menorValor
+inteiro cont
+cont=0
+maiorValor=0
+menorValor=0
+escreva("Digite um valor:")
+leia(valor)
+enquanto(valor >= 0){
+
+se(cont==0){
+    maiorValor=valor
+    menorValor=valor
+    cont++
+    }
+    
+    se(valor > maiorValor){
+     maiorValor = valor
+     }
+     
+     se(valor < menorValor){
+       menorValor = valor
+       }
+       
+       escreva("\nDigite um valor:")
+       leia(valor)
+       }
+       escreva("\nNo menor valor digitado foi", menorValor)
+       escreva("\nNo maior valor digitado foi:", maiorValor)
+       }
+   }    
